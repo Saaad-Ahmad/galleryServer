@@ -17,7 +17,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Middleware
-app.use(cors({ origin: "https://gallery-client.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://gallery-client-chi.vercel.app", credentials: true }));
 
 app.use(express.json());
 
