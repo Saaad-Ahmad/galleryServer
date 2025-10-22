@@ -1,0 +1,22 @@
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjYxNDFiOGUwYTYxNjA4NWMzYmFmMiIsImlhdCI6MTc2MDk1ODE1MCwiZXhwIjoxNzYxNTYyOTUwfQ.IzcLADf1d1cZieEPxkn3l3VqC_vcDnVClf27IPo86sE
+
+
+
+POST http://localhost:5000/api/auth/signup
+Content-Type: application/json
+
+{ 
+ "username":"saad",
+ "email":"saad@mail.com", 
+ "password":"123456" 
+ }
+
+###
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "saad@mail.com",
+  "password": "123456"
+}
